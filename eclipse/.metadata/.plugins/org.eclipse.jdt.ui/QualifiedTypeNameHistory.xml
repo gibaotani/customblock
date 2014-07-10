@@ -6,5 +6,10 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.Instance"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
 <fullyQualifiedTypeName name="com.ignorantebr.customblock.proxy.IProxy"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
+<fullyQualifiedTypeName name="com.ignorantebr.customblock.configuration.ConfigurationHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent"/>
 <fullyQualifiedTypeName name="com.ignorantebr.customblock.reference.Reference"/>
 </qualifiedTypeNameHistroy>
