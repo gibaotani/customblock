@@ -1,0 +1,17 @@
+[
+{
+    "modid": "CustomBlock",
+    "name": "Custom Block",
+    "description": "igno's Custom Block Fabricator Tabajara",
+    "version": "1.0",
+    "mcversion": "1.7.10",
+    "url": "",
+    "updateUrl": "",
+    "autorList": ["ignorante.br"],
+    "credits": "to all ignorants",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "dependencies": [],
+}
+]
