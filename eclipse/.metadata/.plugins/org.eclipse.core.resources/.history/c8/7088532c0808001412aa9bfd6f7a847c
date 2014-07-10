@@ -1,0 +1,5 @@
+package com.ignorantebr.customblock.configuration;
+
+public class ConfigurationHandler {
+
+}

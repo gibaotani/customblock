@@ -1,5 +1,6 @@
 package com.ignorantebr.customblock;
 
+import com.ignorantebr.customblock.configuration.ConfigurationHandler;
 import com.ignorantebr.customblock.proxy.IProxy;
 import com.ignorantebr.customblock.reference.Reference;
 
@@ -8,7 +9,6 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-
 
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION)
 public class CustomBlock {
@@ -21,7 +21,7 @@ public class CustomBlock {
 	
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		
+		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	}
 	
 	@Mod.EventHandler
